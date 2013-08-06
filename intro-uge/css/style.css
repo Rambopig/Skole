@@ -1,0 +1,89 @@
+body {
+    background-image: url('wow.jpg');
+    font-family: Tahoma;
+    color: #FFFFFF;
+}
+
+.background {
+    
+    width: 940px;
+    background-color: #000000;
+    opacity: 0.8;
+    border: #fff solid 1px;
+    
+}
+
+#inner {
+    height: 700px;
+    width: 940px;
+    margin: 0px auto;
+    position: relative;
+}
+
+article {
+    position: absolute;
+    top:0px;
+    left: 0px;
+    margin: 20px;
+}
+
+img {
+    border: #fff solid 1px;
+    float: left;
+}
+
+header {
+    width: 940px;
+    height: 70px;
+    margin: 40px auto 20px auto;
+}
+
+footer {
+    width: 940px;
+    height: 70px;
+    margin: 20px auto 0px auto;
+}
+
+footer p {
+    font-size: 12px;
+    margin: 28px 0px 0px 20px;
+}
+
+header h3 {
+    color: #fff;
+    margin: 22px 0px 0px 20px;
+}
+
+footer, header {
+    position: relative;
+}
+
+footer p, header h3 {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+.lefttext {
+    font-size: 12px;
+    margin: -310px 0px 0px 0px;
+    padding: 0px;
+}
+
+.lefttext p {
+    margin: 0px 0px 5px 0px ;
+}
+
+.text {
+    float: left;
+    margin: 0px 0px 0px 20px;
+    font-size: 13px;
+}
+
+div.clear {
+    clear: both;
+}
+
+.text p {
+    margin: 0px;
+}
